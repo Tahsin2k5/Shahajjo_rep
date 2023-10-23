@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+{% load static %}<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
@@ -44,15 +44,15 @@
 	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'> -->
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="{% static 'css/animate.css' %}">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
 	<!-- Superfish -->
-	<link rel="stylesheet" href="css/superfish.css">
+	<link rel="stylesheet" href="{% static 'css/superfish.css' %}">
 
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
 
 
 	<!-- Modernizr JS -->
@@ -145,13 +145,13 @@
 
 				<div class="row row-bottom-padded-md">
 					<div class="col-md-12 text-center animate-box">
-						<p><img src="images/cover_bg_1.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive"></p>
+						<p><img src="{% static 'images/cover_bg_1.jpg' %}" alt="Free HTML5 Bootstrap Template" class="img-responsive"></p>
 					</div>
 					<div class="col-md-6 text-center animate-box">
-						<p><img src="images/cover_bg_2.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive"></p>
+						<p><img src="{% static 'images/cover_bg_2.jpg' %}" alt="Free HTML5 Bootstrap Template" class="img-responsive"></p>
 					</div>
 					<div class="col-md-6 text-center animate-box">
-						<p><img src="images/cover_bg_3.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive"></p>
+						<p><img src="{% static 'images/cover_bg_3.jpg' %}" alt="Free HTML5 Bootstrap Template" class="img-responsive"></p>
 					</div>
 				</div>
 				<div class="row">

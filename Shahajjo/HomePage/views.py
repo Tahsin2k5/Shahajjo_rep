@@ -4,4 +4,4 @@ from django.shortcuts import HttpResponse, render
 
 def homepage(request):
     
-    return HttpResponse("Eta hocchey Home Page")
+    return render(request,'homepage/about.html')
