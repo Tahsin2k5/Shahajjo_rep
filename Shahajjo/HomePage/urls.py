@@ -19,8 +19,6 @@ from . import views as v
 from HomePage import views as HP
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('catAdmin/', v.index,name = 'catadmin'),
-     path('insert/', v.insert,name='cat_insert'),
-     path('', HP.homepage,name='HomePage.urls'),
+    path('', HP.homepage,name = 'HomePage'),
+    
 ]

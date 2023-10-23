@@ -1,7 +1,7 @@
 # HomePage/views.py
-from django.shortcuts import HttpResponse
+from django.shortcuts import HttpResponse, render
 
 
 def homepage(request):
     
-    return HttpResponse("Home er page eta")
+    return HttpResponse("Eta hocchey Home Page")
