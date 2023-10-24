@@ -15,10 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from . import views as v
-from HomePage import views as HP
+from contact_application import views as CP
 
 urlpatterns = [
-    path('contact', HP.homepage,name = 'HomePage'),
+    path('contact/', CP.cont_fun,name = 'contact.url'),
     
 ]
