@@ -93,16 +93,20 @@
 							<li>
 								<a href="">Home</a>
 							</li>
+
+							{% for i in all_cat %}
+
 							<li>
-								<a href="#" class="fh5co-sub-ddown">Get Involved</a>
-								<ul class="fh5co-sub-menu">
+								<a href="#" class="fh5co-sub-ddown">{{i.name}}</a>
+								<!-- <ul class="fh5co-sub-menu">      _______________DROP DOWN MENU________________
 									<li><a href="#">Donate</a></li>
 									<li><a href="#">Fundraise</a></li>
 									<li><a href="#">Campaign</a></li>
 									<li><a href="#">Philantrophy</a></li>
 									<li><a href="#">Volunteer</a></li>
-								</ul>
+								</ul>    _______________DROP DOWN MENU________________ -->
 							</li>
+							{% endfor %}
 							<li>
 								<a href="#" class="fh5co-sub-ddown">Projects</a>
 								 <ul class="fh5co-sub-menu">

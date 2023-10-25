@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'shahajjo',
     'HomePage',
-    'contact_application'
+    'contact_application',
+    'donations'
 ]
 
 MIDDLEWARE = [
