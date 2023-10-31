@@ -19,6 +19,8 @@ from . import views as v
 from HomePage import views as HP
 from contact_application import views as CP
 from donations import views
+from link_app import views as LP
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -27,5 +29,6 @@ urlpatterns = [
     path('', HP.homepage,name='HomePage.urls'),
     path('contact/', CP.cont_fun,name='contact.urls'),
     path('donations/', include('donations.urls')),
+    path('link/', LP.index5,name = 'link.urls'),
 
 ]

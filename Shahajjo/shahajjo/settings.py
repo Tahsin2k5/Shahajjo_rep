@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'shahajjo',
     'HomePage',
     'contact_application',
-    'donations'
+    'donations',
+    'link_app'
 ]
 
 MIDDLEWARE = [
